@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "NotoSans Medium";
+  src: url(font/NotoSansKR-Medium.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans Regular";
+  src: url(font/NotoSansKR-Regular.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "GothicA1 Black";
+  src: url(font/GothicA1-Black.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "GothicA1 Light";
+  src: url(font/GothicA1-Light.ttf) format("truetype");
+}
+
+html {
+  background: #fdd2db;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.header {
+  font-family: "NotoSans Medium", serif;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+}
+
+.header > h1 {
+  color: white;
+  font-size: 2.5em;
+  margin: 0;
+  line-height: 120%;
+}
+
+h1#upper {
+  font-family: "GothicA1 Light";
+}
+
+h1#lower {
+  font-family: "GothicA1 Black", serif;
+}
+
+.header > h3 {
+  margin-top: 1.5em;
+}
+.container {
+  position: absolute;
+  display: flex;
+  flex-flow: column wrap;
+  top: 25%;
+  left: 39%;
+}
+
+.sectionA,
+.sectionB,
+.sectionC {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+.sectionA .dot,
+.sectionB .dot,
+.sectionC .dot {
+  position: relative;
+  flex: 1;
+  align-self: start;
+}
+
+.dot > p {
+  font-family: "NotoSans Medium", serif;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  height: 200px;
+  width: 200px;
+  background-color: #ff9599;
+  border-radius: 50%;
+}
+
+.cocSection {
+  display: flex;
+  flex-flow: row wrap;
+}
+.coc {
+  font-family: "NotoSans Regular", serif;
+  margin-left: 5em;
+}
+
+.sectionB .dot > p {
+  background-color: #6beeff;
+}
+
+.sectionC .dot > p {
+  background-color: #6286c4;
+}
