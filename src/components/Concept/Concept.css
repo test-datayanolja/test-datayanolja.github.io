@@ -1,12 +1,15 @@
 html {
-  background: url("../../img/Concept/background.png");
+  height: 100vh;
+  background: url("../../img/Concept/background.png") no-repeat center/cover;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  font-size: 18px;
+  background-image: url("../../img/Concept/background.png");
 }
 
 .header > h2 {
   position: fixed;
+  font-size: 18px;
   color: #ff9498;
 }
 
