@@ -1,18 +1,23 @@
 html {
-  width: auto;
-  height: auto;
   background: url("../../img/Concept/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 18px;
 }
 
-.header > h1 {
+.header > h2 {
   position: fixed;
   color: #ff9498;
 }
 
-.title > h1 {
+.wrap {
+  position: fixed;
+  width: 40%;
+  left: 65%;
+  top: 25%;
+}
+
+.title > h2 {
   color: white;
   margin-top: 3rem;
 }
