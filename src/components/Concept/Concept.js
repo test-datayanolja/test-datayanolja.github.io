@@ -37,7 +37,7 @@ class Datayanolja2020 extends Component {
             })}
           </h1>
         </section>
-        <section className="1_contents">
+        <section className="contents1">
           <h3>
             {this.subtitle1State.split("\n").map(function (item, idx) {
               return (
@@ -59,7 +59,7 @@ class Datayanolja2020 extends Component {
             })}
           </h5>
         </section>
-        <section1 className="2_contents">
+        <section1 className="contents2">
         <h3>
             {this.subtitle2State.split("\n").map(function (item, idx) {
               return (

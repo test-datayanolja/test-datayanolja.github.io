@@ -7,13 +7,20 @@ html {
   font-size: 18px;
 }
 
-.header {
+.header > h1 {
   position: fixed;
-  left: 8%;
-  top: 15%;
-  /* color: #ff9498; */
+  color: #ff9498;
 }
 
-.title {
+.title > h1 {
   color: white;
+  margin-top: 3rem;
+}
+
+.contents1 {
+  color: #6286c4;
+}
+
+.contents2 {
+  color: #6286c4;
 }
