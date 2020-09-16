@@ -1,0 +1,19 @@
+html {
+  width: auto;
+  height: auto;
+  background: url("../../img/Concept/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 18px;
+}
+
+.header {
+  position: fixed;
+  left: 8%;
+  top: 15%;
+  /* color: #ff9498; */
+}
+
+.title {
+  color: white;
+}
