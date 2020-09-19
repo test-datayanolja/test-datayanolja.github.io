@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "NotoSans Light";
+  src: url(../../font/NotoSansKR-Light.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "NotoSans Black";
+  src: url(../../font/NotoSansKR-Black.otf) format("truetype");
+}
+
+html {
+  background-color: #082037;
+}
+
+.head {
+  position: absolute;
+  color: #ff9499;
+  top: 25%;
+  left: 10%;
+}
+
+.head #upper {
+  font-family: "NotoSans Light";
+  margin: 0;
+}
+
+.head #lower {
+  font-family: "NotoSans Black";
+  margin: 0;
+}
+
+.sponsor {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  margin-left: 200px;
+}
+.sponsor-image{
+  width: 80%;
+  height: 80%;
+}
