@@ -8,101 +8,98 @@
     src: url(font/NotoSansKR-Regular.otf) format("truetype");
 } */
 
-body {
-  font-family: "NotoSansKR", sans-serif;
-}
-
-html {
-  background: url("../../img/Main/bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 16px;
+body{
+    font-family: "NotoSansKR",sans-serif;
+    /* background-color: #281D61; */
+    /* background */
+    /* background: url('../../img/Main/bg.png'); */
+    font-size: 16px;
 }
 
 .header {
-  position: fixed;
-  left: 8%;
-  top: 15%;
+    position: fixed;
+    left: 8%;
+    top: 15%;
 }
 
 .mainLogo {
-  width: inherit;
-  max-width: 100%;
-  height: auto;
+    width: inherit;
+    max-width: 100%;
+    height: auto;
 }
 
 #iconField {
-  margin: 0;
-  padding-left: 0.8rem;
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-gap: 0.5rem;
-  width: calc(1vw + 3.5rem);
-  height: calc(0.5vw + 1.5rem);
+    margin: 0;
+    padding-left: 0.8rem;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0.5rem;
+    width: calc(1vw + 3.5rem);
+    height: calc(0.5vw + 1.5rem);
 }
 
 .SNS.facebook {
-  background-image: url("../../img/Main/facebook.png");
-  background-size: cover;
+    background-image: url('../../img/Main/facebook.png');
+    background-size: cover;
 }
 
 .SNS.instagram {
-  /* background-image: url(img/main/instagram.png); */
-  background-image: url("../../img/Main/instagram.png");
-  background-size: cover;
+    /* background-image: url(img/main/instagram.png); */
+    background-image: url('../../img/Main/instagram.png');
+    background-size: cover;
 }
 
 .wrap {
-  position: fixed;
-  width: 40%;
-  left: 65%;
-  top: 25%;
+    position: fixed;
+    width: 40%;
+    left: 65%;
+    top: 25%;
 }
 
-.title > h5 {
-  /* font-family: "NotoSansKR",sans-serif; */
-  /* font-family: "NotoSansKR",sans-serif; */
-  font-size: 0.9em;
-  color: #6390ca;
-  margin: 0;
+.title>h5 {
+    /* font-family: "NotoSansKR",sans-serif; */
+    /* font-family: "NotoSansKR",sans-serif; */
+    font-size: 0.9em;
+    color: #6390ca;
+    margin: 0;
 }
 
-.title > h5 :not(:first-child) {
-  margin-top: 3rem;
+.title>h5 :not(:first-child) {
+    margin-top: 3rem;
 }
 
-.title > h1 {
-  /* font-family: "NotoSans Black", serif; */
-  /* font-family: "NotoSansKR",sans-serif; */
-  font-weight: bolder;
-  font-size: 2.3em;
-  line-height: 120%;
-  color: #395d7f;
-  margin: 0;
+.title>h1 {
+    /* font-family: "NotoSans Black", serif; */
+    /* font-family: "NotoSansKR",sans-serif; */
+    font-weight: bolder;
+    font-size: 2.3em;
+    line-height: 120%;
+    color: #395d7f;
+    margin: 0;
 }
 
-.title > h1 :not(:first-child) {
-  margin-top: 1rem;
+.title>h1 :not(:first-child) {
+    margin-top: 1rem;
 }
 
 .dots {
-  margin-top: 1em;
-  font-size: 0.8em;
-  color: #ff9498;
+    margin-top: 1em;
+    font-size: 0.8em;
+    color: #ff9498;
 }
 
-.aboutUs > h5 {
-  /* font-family: "NotoSans Regular", serif; */
-  font-size: 0.8em;
-  line-height: 200%;
-  color: #6390ca;
+.aboutUs>h5 {
+    /* font-family: "NotoSans Regular", serif; */
+    font-size: 0.8em;
+    line-height: 200%;
+    color: #6390ca;
 }
 
 .contact {
-  /* font-family: "NotoSans Regular", serif; */
-  font-size: 0.9em;
-  color: #6390ca;
-  margin-top: 14em;
+    /* font-family: "NotoSans Regular", serif; */
+    font-size: 0.9em;
+    color: #6390ca;
+    margin-top: 14em;
 }

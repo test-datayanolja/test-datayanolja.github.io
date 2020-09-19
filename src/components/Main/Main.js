@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Main.css";
 import mainLogo from "../../img/Main/title_04.png";
+import mainBack from "../../img/Main/bg.png";
 import states from "./aboutus.json";
 
 
@@ -8,7 +9,7 @@ import states from "./aboutus.json";
 class Mainlogo extends Component {
 render() {
     return (
-        <div class="header">
+        <div className="header">
             <section>
             <img className="mainLogo" src={mainLogo} alt="웰컴투 데놀랜드" />
             </section>
@@ -74,6 +75,7 @@ class Main extends Component {
     render() {
         return (
         <div className="Background">
+            <style>{'body { background: url("/static/media/bg.bc7c3ce4.png"); background-repeat: no-repeat; background-size: cover; }'}</style>
             <Mainlogo title="데이터야놀자 2020"></Mainlogo>
             <Aboutus></Aboutus>
         </div>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./Concept.css";
 import states from "./datayanolja2020.json";
+import "./Concept.css";
 
 class Concept extends Component {
   render() {

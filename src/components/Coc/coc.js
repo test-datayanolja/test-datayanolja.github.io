@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <h1 id="upper">Code of</h1>
+        <h1 id="upper">Code of</h1> <br />
         <h1 id="lower">Conduct</h1>
         <h3>
           데이터야놀자는
@@ -244,10 +244,11 @@ class Container extends Component {
   }
 }
 
-class App extends Component {
+class Coc extends Component {
   render() {
     return (
-      <div>
+      <div className="coc-body">
+        <style>{'body { background-color: #fdd2db; }'}</style>
         <Header></Header>
         <Logo></Logo>
         <Container></Container>
@@ -256,4 +257,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Coc;

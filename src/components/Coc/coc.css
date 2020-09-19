@@ -1,9 +1,13 @@
-html {
+/* html {
   background: #fdd2db;
   display: flex;
   flex-flow: row wrap;
-}
+} */
 
+.coc-body {
+  display: flex;
+  flex-flow: row wrap;
+}
 .header {
   font-family: "NotoSansKR Medium", serif;
   position: absolute;
@@ -14,6 +18,9 @@ html {
 .logo {
   position: absolute;
   top: 50%;
+}
+.logo img {
+  width: 700px;
 }
 
 .header > h1 {
@@ -27,12 +34,14 @@ h1#upper {
   font-family: "GothicA1 Light";
 }
 
-h1#lower {
+/* h1#lower {
   font-family: "GothicA1 Black", serif;
-}
+} */
 
 .header > h3 {
-  margin-top: 1.5em;
+  margin-top: 1.0em;
+  color: #082138;
+  font-size: 23px;
 }
 .container {
   position: absolute;
@@ -68,6 +77,9 @@ h1#lower {
   width: 200px;
   background-color: #ff9599;
   border-radius: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  color: #082138;
 }
 #circle p {
   padding-top: 38%;
@@ -80,6 +92,7 @@ h1#lower {
 .coc {
   /* font-family: "NotoSans Regular", serif; */
   margin-left: 5em;
+  color:#395D7F;
 }
 
 .sectionB .dot > #circle {

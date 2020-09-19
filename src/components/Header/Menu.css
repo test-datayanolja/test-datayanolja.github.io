@@ -3,9 +3,9 @@ a{
     text-decoration:none;
     color:inherit;
 }
-body{
-    /* background-color: #082138; */
-}
+/* body{
+    background-color: #082138;
+} */
 #main-menu, #sub-menu {
     float: right;
     margin: 0;

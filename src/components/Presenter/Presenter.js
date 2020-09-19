@@ -6,6 +6,7 @@ class Presenter extends Component {
     render() {
         return (
             <div class="present-background">
+                <style>{'body { background-color: #281D61; }'}</style>
                 <div class="left">
                     <p>쿠팡<br /><b>윤선미님</b></p>
                     <hr align="left"></hr>

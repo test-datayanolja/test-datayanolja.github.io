@@ -1,5 +1,9 @@
-body{
+/* body{
     font-family: "NotoSansKR",sans-serif;
+} */
+.nav {
+    margin: 0 auto;
+    width: 1400px;
 }
 .top {
     width: 550px;

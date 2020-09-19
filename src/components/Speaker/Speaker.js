@@ -6,7 +6,8 @@ import '../Speaker/media-Speaker.css';
 class Speaker extends Component {
     render() {
         return (
-            <nav>
+            <div class="nav">
+                <style>{'body { background-color: #082138; }'}</style>
                 <div class="top">
                     <h1>데놀<br></br>즐기기</h1>
                     <button>청중</button>
@@ -54,7 +55,7 @@ class Speaker extends Component {
                     </div>
                 </div>
                 
-            </nav>
+            </div>
         );
     }
 }

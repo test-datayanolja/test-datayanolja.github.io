@@ -1,28 +1,31 @@
-html {
-  height: 100vh;
-  background: url("../../img/Concept/background.png") no-repeat center/cover;
-  background-repeat: no-repeat;
+
+
+body {
+  background: url("../../img/Concept/background.png");
   background-position: center;
   background-size: cover;
-  background-image: url("../../img/Concept/background.png");
-}
+  background-repeat: no-repeat;
+  height: 100vh;
+  }
 
 .header > h2 {
   position: fixed;
-  font-size: 18px;
+  /* font-size: 20px; */
+  margin-top: 2rem;
   color: #ff9498;
 }
+
 
 .wrap {
   position: fixed;
   width: 40%;
   left: 65%;
-  top: 25%;
+  top: 20%;
 }
 
 .title > h2 {
   color: white;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .contents1 {
