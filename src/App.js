@@ -3,6 +3,7 @@ import Logo from "./components/Header/Logo"
 import Menu from "./components/Header/Menu"
 import Speaker from "./components/Speaker/Speaker"
 import Presenter from "./components/Presenter/Presenter"
+import Partners from "./components/Partners/Partners"
 import Main from "./components/Main/Main"
 import './App.css';
 import './font/font.css';
@@ -28,6 +29,9 @@ class App extends Component {
     }
     else if(this.state.mode === 'presenter'){
       _article = <Presenter></Presenter>
+    }
+    else if(this.state.mode === 'partners') {
+      _article = <Partners></Partners>
     }
 
     return (

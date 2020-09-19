@@ -27,7 +27,10 @@ class Logo extends Component {
                             e.preventDefault();
                             this.props.onChangeMode('speaker');
                         }.bind(this)}>데놀 즐기는 법</a></li>
-                        <li><a href="/">함께하는 파트너스</a></li>
+                        <li><a href="/partners" onClick={function(e){
+                            e.preventDefault();
+                            this.props.onChangeMode('partners')
+                        }.bind(this)}>함께하는 파트너스</a></li>
                         <li><a href="/">2020 막강 준비위</a></li>
                     </ul>
                 </li>
