@@ -27,3 +27,13 @@
     font-family: "NotoSansKR Black";
     src: url("./NotoSansKR-Black.otf") format("opentype");
 }
+
+@font-face {
+    font-family: "GothicA1 Black";
+    src: url("./GothicA1-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GothicA1 Light";
+    src: url("./GothicA1-Light.ttf") format("truetype");
+}
