@@ -1,0 +1,104 @@
+/* html {
+    background: #fdd2db;
+    display: flex;
+    flex-flow: row wrap;
+} */
+
+.coc-body {
+    display: flex;
+    flex-flow: row wrap;
+}
+.header {
+    font-family: "NotoSansKR Medium", serif;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+}
+.logo img {
+    width: 700px;
+}
+
+.header > h1 {
+    color: white;
+    font-size: 2.5em;
+    margin: 0;
+    line-height: 120%;
+}
+
+h1#upper {
+    font-family: "GothicA1 Light";
+}
+
+/* h1#lower {
+    font-family: "GothicA1 Black", serif;
+} */
+
+.header > h3 {
+    margin-top: 1.0em;
+    color: #082138;
+    font-size: 23px;
+}
+.container {
+    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
+    top: 25%;
+    left: 39%;
+}
+
+.sectionA,
+.sectionB,
+.sectionC {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.sectionA .dot,
+.sectionB .dot,
+.sectionC .dot {
+    position: relative;
+    flex: 1;
+    align-self: start;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+
+.dot > #circle {
+    font-family: "NotoSansKR Medium", serif;
+    height: 200px;
+    width: 200px;
+    background-color: #ff9599;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #082138;
+}
+#circle p {
+    padding-top: 38%;
+}
+
+.cocSection {
+    display: flex;
+    flex-flow: row wrap;
+}
+.coc {
+    /* font-family: "NotoSans Regular", serif; */
+    margin-left: 5em;
+    color:#395D7F;
+}
+
+.sectionB .dot > #circle {
+    background-color: #6beeff;
+}
+
+.sectionC .dot > #circle {
+    background-color: #6286c4;
+}
