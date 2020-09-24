@@ -4,6 +4,12 @@ import Menu from "./components/Header/Menu"
 import Speaker from "./components/Speaker/Speaker"
 import Presenter from "./components/Presenter/Presenter"
 import Main from "./components/Main/Main"
+import Coc from "./components/Coc/coc"
+import Program from "./components/Program/Program"
+import Archieve from "./components/Archieve/Archieve"
+import Concept from "./components/Concept/Concept"
+import Partners from "./components/Partners/Partners"
+import Members from "./components/Members/Members"
 import './App.css';
 import './font/font.css';
 
@@ -17,7 +23,7 @@ class App extends Component {
   }
 
   render() {
-    console.log('App render');
+    // console.log('App render');
     var _article = null;
 
     if(this.state.mode === 'main') {
@@ -28,6 +34,24 @@ class App extends Component {
     }
     else if(this.state.mode === 'presenter'){
       _article = <Presenter></Presenter>
+    }
+    else if(this.state.mode === 'coc'){
+      _article = <Coc></Coc>
+    }
+    else if(this.state.mode === 'program'){
+      _article = <Program></Program>
+    }
+    else if(this.state.mode === 'archieve'){
+      _article = <Archieve></Archieve>
+    }
+    else if(this.state.mode === 'concept'){
+      _article = <Concept></Concept>
+    }
+    else if(this.state.mode === 'partners'){
+      _article = <Partners></Partners>
+    }
+    else if(this.state.mode === 'members'){
+      _article = <Members></Members>
     }
 
     return (

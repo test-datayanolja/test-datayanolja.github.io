@@ -1,21 +1,24 @@
 import React, {Component} from 'react';
-import speaker from '../../img/Speaker/man.png';
+import speaker from '../../img/Presenter/hi.png';
 import '../Presenter/Presenter.css';
 
 class Presenter extends Component {
     render() {
         return (
-            <div class="present-background">
-                <div class="left">
+            <div class="pres-background">
+                <style>{'body { background-color: #281D61; }'}</style>
+                <div class="pres-left">
                     <p>쿠팡<br /><b>윤선미님</b></p>
                     <hr align="left"></hr>
                     <span>
-                        xxxxx@gmail.com
+                        xxxxx@gmail.com <br />
                         <a href="/">Github</a>
                     </span>
+                    <br />
                     <img src={speaker} alt="발표자 사진"/>
                 </div>
-                <div class="right">
+                
+                <div class="pres-right">
                     <h1>
                         회사는 어떤 사람을 <br></br>
                         데이터 분석가로 <br></br>
@@ -33,7 +36,7 @@ class Presenter extends Component {
                     </p>
                 </div>
 
-                <div class="background-line">
+                <div class="pres-background-line">
                 </div>
             </div>
         );

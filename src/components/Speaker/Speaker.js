@@ -1,60 +1,87 @@
 import React, {Component} from 'react';
-import speaker from '../../img/Speaker/man.png';
+import speaker2 from "../../img/Speaker/guide_02.png";
+import speaker3 from "../../img/Speaker/guide_03.png";
+import speaker4 from "../../img/Speaker/guide_04.png";
 import '../Speaker/Speaker.css';
-import '../Speaker/media-Speaker.css';
+// import '../Speaker/media-Speaker.css';
 
 class Speaker extends Component {
     render() {
         return (
-            <nav>
-                <div class="top">
-                    <h1>데놀<br></br>즐기기</h1>
+            <div className="spe-body">
+                <style>{'body { background-color: #082138; }'}</style>
+
+                <div className="spe-top">
+                    <div className="Word-title">
+                        <p>
+                            <strong>
+                                데놀<br />
+                                즐기기
+                            </strong>
+                        </p>
+                    </div>
+                    
                     <button>청중</button>
                     <button id="selected">발표자</button>
                 </div>
-                <div class="content">
-                    <div class="first-content">
-                        <img src={speaker} alt="발표자 사진"/>
-                        
-                        <div id="text">
-                            <h2>데놀을 맘껏 즐길 수 있는 방법</h2>
-                            <p>스폰서 채용 패널 토크 : 사전 신청을 통해 이력서를 받고,</p>
-                            <p>스폰서로 참여해주신 분들이 이력서를 리뷰하면서 진행하는</p>
-                            <p>패널 토크 / 언택트 시대에서의 채용에 대한 이야기</p>
-                            <br></br>
-                            <p><b>네트워킹 트랙</b></p>
-                            <p>발표자 + 청중이 자유롭게 참여할 수 있는 화상 네트워킹 세션</p>
-                            <p>(발표자 분들의 의무 참여를 고려하고 있습니다)</p>
-                        </div>
-                    </div>
-                    
 
-                    <div class="second-content">
-                        <img src={speaker} alt="발표자 사진"/>
-                        
-                        <div id="text">
-                            <p>스폰서 채용 패널 토크 : 사전 신청을 통해 이력서를 받고,</p>
-                            <p>스폰서로 참여해주신 분들이 이력서를 리뷰하면서 진행하는</p>
-                            <p>패널 토크 / 언택트 시대에서의 채용에 대한 이야기</p>
-                            <br></br>
-                            <p><b>네트워킹 트랙</b></p>
-                            <p>발표자 + 청중이 자유롭게 참여할 수 있는 화상 네트워킹 세션</p>
-                            <p>(발표자 분들의 의무 참여를 고려하고 있습니다)</p>
+                <div className="spe-contents">
+                    <div className="left-content">
+                        <img src={speaker2} alt="발표자 사진" />
+
+                        <div id="spe-text">
+                            <h2>
+                                1<br />
+                                데이터야놀자에서 오직 <br />
+                                당신만이 들려줄 수 있는 <br />
+                                소중한 이야기
+                            </h2>
+                            <p>
+                                데이터와 함께 하며 겪었던 모든 고난, 시련, 역경, 삽질, 기쁨,
+                            </p>
+                            <p>환희나 데이터를 통해 얻은 통찰, 데이터를 통한</p>
+                            <p>
+                                새로운 가치 창출의 경험 등 당신만의 소중한 경험을 공유해주세요
+                            </p>
                         </div>
                     </div>
 
-                    <div class="third-content">
-                        <img src={speaker} alt="발표자 사진"/>
-                        
-                        <div id="text">
-                            <p><b>네트워킹 트랙</b></p>
-                            <p>발표자 + 청중이 자유롭게 참여할 수 있는 화상 네트워킹 세션</p>
-                            <p>(발표자 분들의 의무 참여를 고려하고 있습니다)</p>
+                    <div className="right-content">
+                        <div id="spe-text">
+                            <h2>
+                                2<br />
+                                데이터에 관심 있는 <br />
+                                다양한 직군의 사람들이 모이는<br />
+                                데이터야놀자
+                            </h2>
+                            <p>데이터야 놀자는 데이터 분석가, 개발자, 마케터, 대학(원)생,</p>
+                            <p>
+                                연구원, 고등학생 등 다양한 사람들이 모여서 만드는 행사입니다.
+                            </p>
+                            <p>발표 소개에서 대상 청중을 구체적으로 작성해주시면,</p>
+                            <p>청중이 더 원하는 발표를 들을 수 있어요</p>
+                        </div>
+
+                        <img src={speaker3} alt="발표자 사진" />
+                    </div>
+
+                    <div className="left-content">
+                            <img src={speaker4} alt="발표자 사진" />
+
+                            <div id="spe-text">
+                            <h2>
+                                3<br />
+                                특정 기술에 대한 이야기도 환영
+                            </h2>
+                            <p>
+                                데이터를 다루는 특정 기술에 대한 전문적인 이야기도 환영합니다.
+                            </p>
+                            <p>단, 발표 전 이러한 점을 청중에게 미리 알려주시면,</p>
+                            <p>미리 마음의 준비를 할 수 있어요!</p>
                         </div>
                     </div>
                 </div>
-                
-            </nav>
+            </div>
         );
     }
 }
