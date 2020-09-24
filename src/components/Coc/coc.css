@@ -1,0 +1,119 @@
+/* html {
+  background: #fdd2db;
+  display: flex;
+  flex-flow: row wrap;
+} */
+
+.coc-body {
+  display: flex;
+  flex-flow: row wrap;
+}
+.header {
+  font-family: "NotoSansKR Medium", serif;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+}
+.logo img {
+  width: 100%;
+}
+
+.header > h1 {
+  color: white;
+  font-size: 2.5em;
+  margin: 0;
+  line-height: 120%;
+}
+
+h1#upper {
+  font-family: "GothicA1 Light";
+}
+
+/* h1#lower {
+  font-family: "GothicA1 Black", serif;
+} */
+
+.header > h3 {
+  margin-top: 1em;
+  color: #082138;
+  font-size: 23px;
+}
+.container {
+  position: absolute;
+  display: flex;
+  flex-flow: column wrap;
+  top: 25%;
+  left: 45%;
+}
+
+.section.A {
+  font-family: "NotoSansKR Black";
+}
+
+.section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+.section.A .dot,
+.section.B .dot,
+.section.C .dot,
+.section.D .dot,
+.section.E .dot {
+  position: relative;
+  flex: 1;
+  align-self: start;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+.dot > #circle {
+  font-family: "NotoSansKR Medium", serif;
+  height: 150px;
+  width: 150px;
+  background-color: #fdd2db;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  color: #082138;
+}
+#circle p {
+  padding-top: 32%;
+}
+
+.cocSection {
+  display: flex;
+  flex-flow: row wrap;
+}
+.coc {
+  /* font-family: "NotoSans Regular", serif; */
+  margin-left: 2em;
+  color: #395d7f;
+}
+.bold {
+  font-family: "NotoSansKR Bold";
+}
+
+.section.B .dot > #circle {
+  background-color: #ff9599;
+}
+
+.section.C .dot > #circle {
+  background-color: #6beeff;
+}
+
+.section.D .dot > #circle {
+  background-color: #6286c4;
+}
+
+.section.E .dot > #circle {
+  background-color: #ff9599;
+}

@@ -1,0 +1,20 @@
+.par-body {
+  width: 1000px;
+  margin: 0 auto;
+}
+.par-left {
+  float:left;
+  color: #ff9499;
+  width: 25%;
+}
+
+.sponsor {
+  float:left;
+  margin: 0;
+  width: 74%;
+  margin: 3% 0 5% 0;
+}
+
+.sponsor img {
+  width: 100%;
+}
