@@ -24,11 +24,12 @@
 }
 .con-right > .title > h2 > span {
   color: white;
-  font-size: 37px;
+  font-size: 26px;
   line-height: 42px;
 }
 .con-right span {
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 32px;
 }
 .con-right h5 {
   margin-left: 30px;

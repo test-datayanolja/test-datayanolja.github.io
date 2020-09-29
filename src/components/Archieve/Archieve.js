@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Archieve.css";
-import logoImg from "../../img/Main/back_04.png";
+import logoImg from "../../img/Archieve/Archieve_img.png";
 // import merry from "../../img/Archieve/Archieve_img.png"
 
 class Archieve extends Component {

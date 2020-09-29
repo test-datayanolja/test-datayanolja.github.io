@@ -14,8 +14,7 @@ class Members extends Component {
                         <p>
                             2020<br />
                             <strong>
-                                막강 준비위를<br />
-                                소개합니다<br />
+                                막강 준비위<br />
                             </strong>
                         </p>
                     </div>

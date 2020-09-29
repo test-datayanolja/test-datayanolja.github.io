@@ -6,8 +6,9 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <h1 id="upper">Code of</h1> <br />
-        <h1 id="lower">Conduct</h1>
+        <h1>Code <br />
+        of Conduct
+        </h1>
         <h3>
           데이터야놀자는
           <br />

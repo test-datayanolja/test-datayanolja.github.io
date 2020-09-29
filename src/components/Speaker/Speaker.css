@@ -5,7 +5,7 @@
 
 /* 데놀 즐기기와 버튼 부분 */
 .spe-top {
-    width: 550px;
+    width: 750px;
     height: 100px;
     margin-bottom: 5%;
 }
@@ -24,12 +24,12 @@
 }
 .spe-contents h2 {
     color: #ffffff;
-    font-size: 26pt;
+    font-size: 18pt;
 }
 .spe-contents p {
     color: #6286C4;
     margin: 2px;
-    font-size: 18pt;
+    font-size: 12pt;
 }
 
 .spe-contents #spe-text {
@@ -49,5 +49,10 @@
 
 /* 사진이 오른쪽, 글자가 왼쪽에 있는 content */
 .spe-contents .right-content #spe-text {
-    margin-right: 7%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.right-content #spe-text {
+    margin-left: 20%
 }

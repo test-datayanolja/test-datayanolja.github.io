@@ -14,7 +14,7 @@ render() {
 
         <ol id="iconField">
             <li className="SNS facebook">
-                <a href="https://www.facebook.com/datayanolja.github.io"></a>
+                <a href="https://www.facebook.com/datayanolja.github.io/"></a>
             </li>
 
             <li className="SNS instagram">
@@ -78,7 +78,8 @@ render() {
             </section>
 
             <section className="contact">
-                <h5>CONTACT | datayanolja.master@gmail.com</h5>
+                <h5><a href="mailto:datayanolja.master@gmail.com">CONTACT | datayanolja.master@gmail.com </a></h5>
+                
             </section>
         </section>
     </main>
