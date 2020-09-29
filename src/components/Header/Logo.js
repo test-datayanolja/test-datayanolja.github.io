@@ -12,7 +12,7 @@ class Logo extends Component {
           this.props.onChangeMode("main");
         }.bind(this)}
       >
-        <img src={logo} alt="데이터야놀자 로고" />
+        <img className="Title" src={logo} alt="데이터야놀자 로고" />
       </a>
     );
   }

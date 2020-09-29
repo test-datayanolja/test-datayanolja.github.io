@@ -6,6 +6,7 @@
   float:left;
   color: #ff9499;
   width: 25%;
+  margin-left: -10%
 }
 
 .sponsor {
@@ -17,4 +18,5 @@
 
 .sponsor img {
   width: 100%;
+  margin-left: 20%;
 }

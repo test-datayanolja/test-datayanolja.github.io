@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Program.css";
-import logoImg from "../../img/Main/back_04.png";
+import logoImg from "../../img/Concept/Concept.png";
 
 class Program extends Component {
     render() {
