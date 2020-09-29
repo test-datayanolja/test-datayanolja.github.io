@@ -6,16 +6,21 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <h1>Code <br />
-        of Conduct
-        </h1>
-        <h3>
-          데이터야놀자는
-          <br />
-          다음의 가치를
-          <br />
-          중요하게 생각합니다.
-        </h3>
+        <div className="Word-title">
+          <p>
+            Code <br />
+            of Conduct
+          </p>
+        </div>
+        <div className="lower">
+          <h3>
+            데이터야놀자는
+            <br />
+            다음의 가치를
+            <br />
+            중요하게 생각합니다.
+          </h3>
+        </div>
       </div>
     );
   }
