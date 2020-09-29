@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Main.css";
 import mainLogo from "../../img/Main/title_04.png";
+import mainDate from "../../img/Main/date.png";
 import logoImg from "../../img/Main/back_04.png";
 import states from "./aboutus.json";
 
@@ -9,16 +10,17 @@ render() {
     return (
     <div className="main-left">
         <section>
-            <img className="mainLogo" src={mainLogo} alt="웰컴투 데놀랜드" />
+            <img className="mainLogo" src={mainLogo} alt="웰컴투 데놀랜드" /><br/>
+            <img className="mainDate" src={mainDate} alt="2020년 10월 17일" />
         </section>
 
         <ol id="iconField">
             <li className="SNS facebook">
-                <a href="https://www.facebook.com/datayanolja.github.io/"></a>
+                <a className="link" href="https://www.facebook.com/datayanolja.github.io/"></a>
             </li>
 
             <li className="SNS instagram">
-                <a href="https://www.instagram.com/dataya_nolja/"></a>
+                <a className="link" href="https://www.instagram.com/dataya_nolja/"></a>
             </li>
         </ol>
 
