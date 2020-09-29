@@ -10,10 +10,11 @@
 }
 
 .header {
+  float: left;
   font-family: "NotoSansKR Medium", serif;
   position: absolute;
-  top: 25%;
-  left: 10%;
+  left: 9%;
+  margin-left: 100px;
 }
 
 .logo {
@@ -34,10 +35,6 @@
 h1#upper {
   font-family: "GothicA1 Light";
 }
-
-/* h1#lower {
-  font-family: "GothicA1 Black", serif;
-} */
 
 .header > h3 {
   margin-top: 1em;
