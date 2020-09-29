@@ -1,11 +1,3 @@
-/* reset css */
-a{
-    text-decoration:none;
-    color:inherit;
-}
-/* body{
-    background-color: #082138;
-} */
 #main-menu,
 #sub-menu {
     float: right;
@@ -13,6 +5,11 @@ a{
     padding: 0;
     list-style-type: none;
     font-size: 13pt;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
 }
 
 #sub-menu > li {
@@ -53,6 +50,16 @@ a{
 #main-menu .no-cliked {
     color: #395D7F;
     font-weight: normal;
+}
+
+#main-menu .about-sub {
+    padding-left: 20px;
+}
+#main-menu .event-sub {
+    padding-right: 15px;
+}
+#main-menu .news-sub {
+    padding-right: 30px;
 }
 
 #circle {
