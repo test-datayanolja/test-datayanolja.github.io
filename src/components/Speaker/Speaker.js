@@ -21,9 +21,6 @@ class Speaker extends Component {
               즐기기
             </p>
           </div>
-
-          <button>청중</button>
-          <button id="selected">발표자</button>
         </div>
 
         <div className="spe-contents">
@@ -56,7 +53,7 @@ class Speaker extends Component {
                 연구원, 고등학생 등 다양한 사람들이 모여서 만드는 행사입니다.
               </p>
               <p>발표 소개에서 대상 청중을 구체적으로 작성해주시면,</p>
-              <p>청중이 더 원하는 발표를 들을 수 있어요</p>
+              <p>모두가 원하는 발표를 들을 수 있어요</p>
             </div>
           </div>
 
@@ -73,8 +70,7 @@ class Speaker extends Component {
               <h2>Put your hands up!</h2>
               <p>저희는 데이터로 재밌게 놀기 위해 모였습니다.</p>
               <p>엄숙하거나 프로패셔널한 모습도 좋지만,</p>
-              <p>편한 마음으로 재밌는 이야기를 마음껏 풀어주세요.</p>
-              <p>드립은 사랑입니다. </p>
+              <p>편한 마음으로 재밌는 이야기를 마음껏 즐겨주세요.</p>
             </div>
 
             <img src={speaker3} alt="발표자 사진" />
@@ -88,7 +84,14 @@ class Speaker extends Component {
               <p>광고는 멋진 발표 후 마지막 슬라이드 한 장이면 충분합니다.</p>
               <p>광고는 최대한 자제해주세요.</p>
               <p>광고는 제품이 아닌</p>
-              <p>사람에게 반할 때 효과가 가장 큽니다. </p>
+              <p>사람에게 반할 때 효과가 가장 큽니다.</p>
+              <br />
+              <br />
+              <h2>피드백 무한 환영</h2>
+              <p>발표에 대해 궁금한 점이나 행사에 대한 피드백은</p>
+              <p>365일 연중무휴!</p>
+              <p>언제든 데놀 공식 이메일이나 페이스북을 통해 연락주세요.</p>
+              <p>신속정확하게 답변 배달해드립니다.</p>
             </div>
           </div>
         </div>
