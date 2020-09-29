@@ -105,19 +105,20 @@ class Menu extends Component {
           </a>
         </li>
         <li>
-          <a
-            href="/"
-            className="menu"
-            onClick={function (e) {
-              e.preventDefault();
-              this.props.onChangeMode("archieve");
-            }.bind(this)}
-          >
+          <a href="/" className="menu">
             NEWSLETTER
           </a>
+          <ul id="sub-menu">
+            <li>
+              <a href="https://stib.ee/MWQ2">1회차</a>
+            </li>
+            <li>
+              <a href="https://stib.ee/ILT2">2회차</a>
+            </li>
+          </ul>
         </li>
         <li>
-          <a href="/" className="menu">
+          <a href="https://event-us.kr/datayanolja2020/event" className="menu">
             TICKET
           </a>
         </li>
