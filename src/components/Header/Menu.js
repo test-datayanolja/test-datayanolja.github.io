@@ -14,15 +14,6 @@ class Menu extends Component {
         $(".menu[menu-index=" + index + "]").addClass("clicked");
         $(".menu[menu-index!=" + index + "]").removeClass("clicked");
       });
-
-    // $(".sub-menu-a")
-    //   .each(function (index) {
-    //     $(this).attr("menu-index", index);
-    //   })
-    //   .click(function () {
-    //     var index = $(this).attr("menu-index");
-    //     $(".sub-menu-a[menu-index=" + index + "]").addClass("clicked");
-    //   });
   }
 
   render() {
@@ -104,36 +95,24 @@ class Menu extends Component {
           </a>
           <ul id="sub-menu" className="news-sub">
             <li>
-              <a href="https://stib.ee/MWQ2">뉴스레터 1회차</a>
+              <a href="https://stib.ee/MWQ2" target="_blank">뉴스레터 1회차</a>
             </li>
 
             <li>
-              <a href="https://stib.ee/ILT2">뉴스레터 2회차</a>
+              <a href="https://stib.ee/ILT2" target="_blank">뉴스레터 2회차</a>
             </li>
 
             <li>
-              <a href="https://stib.ee/BOU2">뉴스레터 3회차</a>
+              <a href="https://stib.ee/BOU2" target="_blank">뉴스레터 3회차</a>
             </li>
           </ul>
         </li>
 
         <li>
-          <a href="https://event-us.kr/datayanolja2020/event/23268" className="menu">
+          <a href="https://event-us.kr/datayanolja2020/event/23268" target="_blank"className="menu">
             TICKET
           </a>
         </li>
-        {/* <li>
-        <a
-            href="/"
-            className="menu"
-            onClick={function (e) {
-            e.preventDefault();
-            this.props.onChangeMode("archieve");
-            }.bind(this)}
-        >
-            ARCHIEVE
-        </a>
-        </li> */}
       </ul>
     );
   }
