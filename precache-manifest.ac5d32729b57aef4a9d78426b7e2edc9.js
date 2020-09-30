@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "437f4fbae13ca0cc15f55401224dc86f",
+    "revision": "afec24f396bd0de6bac364e450133d51",
     "url": "/github.io/datayanolja/index.html"
   },
   {
-    "revision": "508eae53710710ea4b7a",
-    "url": "/github.io/datayanolja/static/css/main.a489042f.chunk.css"
+    "revision": "70f37be10975ee81690c",
+    "url": "/github.io/datayanolja/static/css/main.bdbf7357.chunk.css"
   },
   {
     "revision": "a5c8f224fe52387334db",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/github.io/datayanolja/static/js/2.20b72fc6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "508eae53710710ea4b7a",
-    "url": "/github.io/datayanolja/static/js/main.11062abe.chunk.js"
+    "revision": "70f37be10975ee81690c",
+    "url": "/github.io/datayanolja/static/js/main.76f83490.chunk.js"
   },
   {
     "revision": "ae06fde8b50defad5b6d",
