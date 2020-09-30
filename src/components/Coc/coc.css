@@ -1,49 +1,30 @@
-/* html {
-  background: #fdd2db;
-  display: flex;
-  flex-flow: row wrap;
-} */
-
 .coc-body {
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
 }
-
-.header {
-  float: left;
+.Word-title{
   font-family: "NotoSansKR Medium", serif;
-  position: absolute;
-  left: 9%;
-  margin-left: 100px;
-  color: white;
+}
+.Word-title .coc-lower {
+  margin-top: 10px;
+  font-size: 24px;
+  line-height: 32px;
+  color: black;
 }
 
 .logo {
   position: absolute;
-  top: 50%;
+  top: 55%;
+  left: 12%;
+  /* padding-left: -100px; */
+  /* margin-right: 50px; */
 }
 .logo img {
-  width: 100%;
+  width: 75%;
 }
 
-.header > h1 {
-  font-size: 2.5em;
-  margin: 0;
-  line-height: 120%;
-}
-
-h1#upper {
-  font-family: "GothicA1 Light";
-}
-
-.lower > h3 {
-  /* margin-top: 1em; */
-  color: #082138;
-  font-size: 23px;
-}
-.lower {
-  margin-top: 120px;
-}
 .container {
   position: absolute;
   display: flex;
@@ -95,7 +76,6 @@ h1#upper {
   flex-flow: row wrap;
 }
 .coc {
-  /* font-family: "NotoSans Regular", serif; */
   margin-left: 2em;
   color: #395d7f;
 }
