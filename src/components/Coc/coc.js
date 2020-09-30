@@ -5,21 +5,21 @@ import logo from "../../img/Coc/Coc_img.png";
 class Header extends Component {
   render() {
     return (
-      <div className="header">
+      <div className="coc-header">
         <div className="Word-title">
           <p>
-            Code <br />
-            of Conduct
+            <strong>
+              Code <br />
+              of Conduct
+            </strong>
+            <br />
+            <div className="coc-lower">
+              데이터야 놀자는<br />
+              다음의 가치를<br />
+              중요하게 생각합니다.
+            </div>
           </p>
-        </div>
-        <div className="lower">
-          <h3>
-            데이터야놀자는
-            <br />
-            다음의 가치를
-            <br />
-            중요하게 생각합니다.
-          </h3>
+
         </div>
       </div>
     );

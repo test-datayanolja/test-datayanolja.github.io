@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import $ from "jquery";
-// import logo from "../../img/Header/logo.png";
-// import jQuery from "jquery";
-// window.$ = window.jQuery = jQuery;
 import "../Header/Menu.css";
 
 class Menu extends Component {
@@ -104,6 +101,10 @@ class Menu extends Component {
             <li>
               <a href="https://stib.ee/ILT2">뉴스레터 2회차</a>
             </li>
+
+            <li>
+              <a href="https://stib.ee/BOU2">뉴스레터 3회차</a>
+            </li>
           </ul>
         </li>
 
@@ -112,18 +113,6 @@ class Menu extends Component {
             TICKET
           </a>
         </li>
-        {/* <li>
-        <a
-            href="/"
-            className="menu"
-            onClick={function (e) {
-            e.preventDefault();
-            this.props.onChangeMode("archieve");
-            }.bind(this)}
-        >
-            ARCHIEVE
-        </a>
-        </li> */}
       </ul>
     );
   }
