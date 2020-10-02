@@ -21,7 +21,7 @@ class Menu extends Component {
       <ul id="main-menu">
         <li>
           <a href="/" className="menu">
-            ABOUT US
+            데놀랜드 소개
           </a>
           <ul id="sub-menu" className="about-sub">
             <li>
@@ -59,7 +59,7 @@ class Menu extends Component {
               this.props.onChangeMode("concept");
             }.bind(this)}
           >
-            EVENT
+            데놀랜드 2020
           </a>
           <ul id="sub-menu" className="event-sub">
             <li>
@@ -85,13 +85,13 @@ class Menu extends Component {
               this.props.onChangeMode("coc");
             }.bind(this)}
           >
-            COC
+            데놀랜드 이용규칙
           </a>
         </li>
 
         <li>
           <a href="/" className="menu">
-            NEWSLETTER
+            데놀랜드 뉴스레터
           </a>
           <ul id="sub-menu" className="news-sub">
             <li>
@@ -110,7 +110,7 @@ class Menu extends Component {
 
         <li>
           <a href="https://event-us.kr/datayanolja2020/event/23268" target="_blank"className="menu">
-            TICKET
+            데놀랜드 입장권
           </a>
         </li>
       </ul>
