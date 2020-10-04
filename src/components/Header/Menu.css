@@ -72,3 +72,9 @@ a {
   background-color: white;
   margin-top: -12px;
 }
+
+@media (max-width: 575px) {
+  #main-menu {
+    display: none;
+  }
+}

@@ -3,7 +3,7 @@ import speaker2 from "../../img/Speaker/guide_02.png";
 import speaker3 from "../../img/Speaker/guide_03.png";
 import speaker4 from "../../img/Speaker/guide_04.png";
 import "../Speaker/Speaker.css";
-// import '../Speaker/media-Speaker.css';
+// import "../Speaker/media-Speaker.css";
 
 class Speaker extends Component {
   render() {
