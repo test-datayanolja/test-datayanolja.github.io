@@ -20,7 +20,14 @@ class Menu extends Component {
     return (
       <ul id="main-menu">
         <li>
-          <a href="/" className="menu">
+          <a
+            href="/main"
+            className="menu"
+            onClick={function (e) {
+              e.preventDefault();
+              this.props.onChangeMode("main");
+            }.bind(this)}
+          >
             데놀랜드 소개
           </a>
           <ul id="sub-menu" className="about-sub">
@@ -90,26 +97,33 @@ class Menu extends Component {
         </li>
 
         <li>
-          <a href="/" className="menu">
+          <a
+            href="/main"
+            className="menu"
+            onClick={function (e) {
+              e.preventDefault();
+              this.props.onChangeMode("main");
+            }.bind(this)}
+          >
             데놀랜드 뉴스레터
           </a>
           <ul id="sub-menu" className="news-sub">
             <li>
-              <a href="https://stib.ee/MWQ2" target="_blank">뉴스레터 1회차</a>
+              <a href="https://stib.ee/MWQ2" target="_blank" rel="noopener noreferrer">뉴스레터 1회차</a>
             </li>
 
             <li>
-              <a href="https://stib.ee/ILT2" target="_blank">뉴스레터 2회차</a>
+              <a href="https://stib.ee/ILT2" target="_blank" rel="noopener noreferrer">뉴스레터 2회차</a>
             </li>
 
             <li>
-              <a href="https://stib.ee/BOU2" target="_blank">뉴스레터 3회차</a>
+              <a href="https://stib.ee/BOU2" target="_blank" rel="noopener noreferrer">뉴스레터 3회차</a>
             </li>
           </ul>
         </li>
 
         <li>
-          <a href="https://event-us.kr/datayanolja2020/event/23268" target="_blank"className="menu">
+          <a href="https://event-us.kr/datayanolja2020/event/23268" target="_blank" rel="noopener noreferrer" className="menu">
             데놀랜드 입장권
           </a>
         </li>
