@@ -53,3 +53,67 @@
 .right-content #spe-text {
   margin-left: 20%;
 }
+
+@media (max-width: 575px) {
+  .spe-body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .spe-top {
+    width: 100%;
+    height: auto;
+    margin-bottom: 31px;
+    margin-left: 8%;
+  }
+  .spe-top .Word-title p  {
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+  .spe-contents {
+    margin-top: 31px;
+    margin-left: 8%;
+  }
+
+  .left-content,
+  .right-content {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .spe-contents .left-content #spe-text {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .left-content img {
+    display: none;
+  }
+
+  .right-content img {
+    display: none;
+  }
+
+  .spe-contents .right-content #spe-text {
+    margin-top: 5%;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .spe-contents h2 {
+    font-size: 17pt;
+    margin-top: 31px;
+  }
+
+  .spe-contents p {
+    margin: 2px;
+    font-size: 10pt;
+  }
+
+  .spe-contents .left-content,
+  .spe-contents .right-content {
+    height: auto; /* margin 대신 간격 조절 */
+  }
+}
