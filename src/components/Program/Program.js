@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Program.css";
 import timeTable from "../../img/Program/time_table.png";
+import timeTablem from "../../img/Program/time_table_m.png";
 
 // 글자 : #FF9499
 // 배경 : #082037
@@ -24,8 +25,9 @@ class Header extends Component {
 class Timetable extends Component {
   render() {
     return (
-      <div className="timeTable">
-        <img src={timeTable} alt="Time Table" />
+      <div>
+        <img src={timeTable} alt="Time Table" className="timeTable" />
+        <img src={timeTablem} alt="Time Table" className="timeTablem" />
       </div>
     );
   }
