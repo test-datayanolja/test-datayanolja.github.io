@@ -64,7 +64,14 @@ class App extends Component {
             clicked={this.state.clicked}
           ></Menu>
 
-          <MobileMenu></MobileMenu>
+          <MobileMenu
+            onChangeMode={function (_mode) {
+              this.setState({
+                mode: _mode,
+              });
+            }.bind(this)}
+            clicked={this.state.clicked}
+          ></MobileMenu>
         </header>
 
         {_article}
