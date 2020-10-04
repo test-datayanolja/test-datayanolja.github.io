@@ -14,12 +14,13 @@ class Header extends Component {
             </strong>
             <br />
             <div className="coc-lower">
-              데이터야 놀자는<br />
-              다음의 가치를<br />
+              데이터야 놀자는
+              <br />
+              다음의 가치를
+              <br />
               중요하게 생각합니다.
             </div>
           </p>
-
         </div>
       </div>
     );
@@ -142,6 +143,7 @@ class SectionB extends Component {
           </div>
         </div>
         <section className="cocSection">
+          <p id="mobile_p">COMPANION 어울림</p>
           <div className="coc">{this.write_text(0)}</div>
           <div className="coc">{this.write_text(1)}</div>
           <div className="coc">{this.write_text(2)}</div>
@@ -209,6 +211,7 @@ class SectionC extends Component {
           </div>
         </div>
         <section className="cocSection">
+          <p id="mobile_p">OWNERSHIP 참여</p>
           <div className="coc">{this.write_text(0)}</div>
           <div className="coc">{this.write_text(1)}</div>
           <div className="coc">
@@ -281,6 +284,7 @@ class SectionD extends Component {
           </div>
         </div>
         <section className="cocSection">
+          <p id="mobile_p">CHEERS! 즐거움</p>
           <div className="coc">{this.write_text(0)}</div>
           <div className="coc">
             <div className="bold">지적 즐거움</div>
@@ -352,6 +356,7 @@ class Report extends Component {
           </div>
         </div>
         <section className="cocSection">
+          <p id="mobile_p">REPORT 신고</p>
           <div className="coc">
             <div className="bold">신고하기</div>
             {this.write_text(0)}
