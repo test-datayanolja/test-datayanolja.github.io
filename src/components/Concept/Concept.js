@@ -20,6 +20,9 @@ class Concept extends Component {
         </div>
 
         <JsonConcept></JsonConcept>
+        <div className="con-mobile">
+          <img src={concept} alt="concept" />
+        </div>
       </div>
     );
   }
