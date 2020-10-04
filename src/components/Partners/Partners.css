@@ -16,14 +16,13 @@
   margin: 3% 0 5% 0;
 }
 
-.sponsor #web {
-  width: 100%;
-  margin-left: 20%;
-}
-
 @media (min-width: 576px) {
   .sponsor #mobile {
     display: none;
+  }
+  .sponsor #web {
+    width: 100%;
+    margin-left: 20%;
   }
 }
 
@@ -42,8 +41,9 @@
     display: none;
   }
 
-  .sonsor #moblie {
-    width: 500px%;
-    margin-left: 8%;
+  .sponsor #mobile {
+    display: block;
+    width: 130%;
+    margin-top: 8%;
   }
 }
