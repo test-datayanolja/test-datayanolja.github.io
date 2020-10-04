@@ -1,13 +1,30 @@
 .main-body {
   /* border: 1px solid red; */
-  height: 300px;
+  /* height: 300px; */
   width: 1200px;
   margin: 0 auto;
 }
 
 .main-left {
+  display: flex;
+  flex-direction: column;
   float: left;
   width: 60%;
+}
+.mainLogo {
+  width: 50%;
+  order: 0;
+}
+.mainDate {
+  margin-top: -3%;
+  order: 1;
+}
+
+.logoImg {
+  order: 2;
+  width: 120%;
+  margin-top: -190px;
+  margin-left: -30px;
 }
 
 .main-right {
@@ -15,7 +32,7 @@
   width: 39%;
 }
 
-#iconField {
+/* #iconField {
   margin: 0;
   padding-left: 0.8rem;
   list-style-type: none;
@@ -25,13 +42,6 @@
   grid-gap: 0.5rem;
   width: calc(1vw + 3.5rem);
   height: calc(0.5vw + 1.5rem);
-}
-
-.logoImg {
-  width: 120%;
-  margin-top: -200px;
-  margin-left: -30px;
-  z-index: 0;
 }
 
 .SNS.facebook {
@@ -44,19 +54,19 @@
   background-image: url("../../img/Main/instagram.png");
   background-size: cover;
   z-index: 100;
-}
+} */
 
-.title>h5 {
+.title > h5 {
   font-size: 1em;
   color: #6390ca;
   margin: 0;
 }
 
-.title>h5 :not(:first-child) {
+.title > h5 :not(:first-child) {
   margin-top: 3rem;
 }
 
-.title>h1 {
+.title > h1 {
   font-family: "NotoSansKR Bold", serif;
   font-weight: bolder;
   font-size: 2.3em;
@@ -65,7 +75,7 @@
   margin: 0;
 }
 
-.title>h1 :not(:first-child) {
+.title > h1 :not(:first-child) {
   margin-top: 1rem;
 }
 
@@ -75,7 +85,7 @@
   color: #ff9498;
 }
 
-.aboutUs>h5 {
+.aboutUs > h5 {
   /* font-family: "NotoSans Regular", serif; */
   font-size: 1em;
   line-height: 200%;
@@ -95,8 +105,50 @@
 }
 
 .mainDate {
+  width: 50%;
   margin-left: 10px;
   margin-bottom: 10px;
-  z-index: 100;
-  width: 60%;
+}
+
+@media (min-width: 576px) {
+  .mainDate_m {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .main-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+  .main-left {
+    order: 0;
+    margin-left: 8%;
+    width: 70%;
+  }
+  .main-right {
+    order: 1;
+  }
+  .mainDate {
+    display: none;
+  }
+  .mainLogo,
+  .mainDate_m {
+    width: 80%;
+    display: block;
+  }
+  .mainDate_m {
+    order: 1;
+  }
+  .logoImg {
+    width: 170%;
+    margin-top: -30%;
+    margin-left: -50px;
+  }
+  .main-right {
+    margin-left: 8%;
+    width: 100%;
+  }
 }
