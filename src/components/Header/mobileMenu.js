@@ -21,7 +21,14 @@ componentDidMount() {
                         });  
         });
 
-        $('.menu_wrap>li>a').on('click', function(){
+        $('.menu_wrap>li>a')
+        .each(function (index) {
+            $(this).attr("menu-index", index);
+        })
+
+        .on('click', function(){
+            var index = $(this).attr("menu-index");
+
             if(click_num %2 === 0)
                 $('.mobile-menu-clicked>ul').css('display','block');
             else
@@ -59,19 +66,73 @@ render() {
                 <li>
                     <a href="/" onClick={function (e) {
                         e.preventDefault();
+                        this.props.onChangeMode("main");
                     }.bind(this)}>데놀랜드 소개</a>
 
                     <div className="mobile-menu-clicked">
                         <ul>
-                            <li>데놀 즐기기</li>
-                            <li>함께하는 파트너스</li>
+                            <li><a
+                                href="/"
+                                onClick={function (e) {
+                                e.preventDefault();
+                                this.props.onChangeMode("speaker");
+                                }.bind(this)}>
+                                데놀 즐기기
+                            </a></li>
+                            <li><a
+                            href="/"
+                            onClick={function (e) {
+                            e.preventDefault();
+                            this.props.onChangeMode("partners");
+                            }.bind(this)}>
+                            함께하는 파트너스
+                        </a></li>
                         </ul>
                     </div>
-                    
                 </li>
-                {/* <li></li>
-                <li><a href="/">메뉴03</a></li>
-                <li><a href="/">메뉴04</a></li> */}
+
+                <li>
+                    <a href="/" onClick={function (e) {
+                        e.preventDefault();
+                        this.props.onChangeMode("concept");
+                    }.bind(this)}>데놀랜드 2020</a>
+
+                    <div className="mobile-menu-clicked">
+                        <ul>
+                            <li><a href="/" onClick={function (e) {
+                                e.preventDefault();
+                                this.props.onChangeMode("program");
+                                }.bind(this)}>프로그램</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="/" onClick={function (e) {
+                        e.preventDefault();
+                        this.props.onChangeMode("coc");
+                    }.bind(this)}>데놀랜드 이용규칙</a>
+                </li>
+
+                <li>
+                    <a href="/" onClick={function (e) {
+                        e.preventDefault();
+                        this.props.onChangeMode("main");
+                    }.bind(this)}>데놀랜드 뉴스레터</a>
+
+                    <div className="mobile-menu-clicked">
+                        <ul>
+                            <li><a href="https://stib.ee/MWQ2">뉴스레터 1회차</a></li>
+                            <li><a href="https://stib.ee/ILT2">뉴스레터 2회차</a></li>
+                            <li><a href="https://stib.ee/BOU2">뉴스레터 3회차</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="https://event-us.kr/datayanolja2020/event/23268">데놀랜드 입장권</a>
+                </li>
             </ul>
         </div>
     </div>
