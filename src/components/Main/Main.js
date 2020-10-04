@@ -14,16 +14,6 @@ render() {
             <img className="mainDate" src={mainDate} alt="2020년 10월 17일" />
         </section>
 
-        <ol id="iconField">
-            <li className="SNS facebook">
-                <a className="link" href="https://www.facebook.com/datayanolja.github.io/"></a>
-            </li>
-
-            <li className="SNS instagram">
-                <a className="link" href="https://www.instagram.com/dataya_nolja/"></a>
-            </li>
-        </ol>
-
         <img className="logoImg" src={logoImg} alt="회전목마" />
     </div>
     );
