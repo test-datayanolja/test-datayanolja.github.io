@@ -19,4 +19,12 @@
     .Title {
         display:none;
     }
+
+    .mobile-menu-info-clicked > ul, .mobile-menu-2020-clicked > ul, .mobile-menu-news-clicked>ul {
+        display: none;
+    }
+    body {
+        margin-top: 100px;
+        overflow-x: hidden;
+    }
 }
