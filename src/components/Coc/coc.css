@@ -159,4 +159,8 @@
   .dot {
     display: none;
   }
+
+  .cocSection {
+    z-index: -1;
+  }
 }
