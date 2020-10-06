@@ -100,21 +100,8 @@
   font-weight: bold;
   font-size: 20px;
 }
-
-.section.B #mobile_p {
-  color: #ff9599;
-}
-
-.section.C #mobile_p {
-  color: #6beeff;
-}
-
-.section.D #mobile_p {
+.section #mobile_p {
   color: #6286c4;
-}
-
-.section.E #mobile_p {
-  color: #ff9599;
 }
 
 @media (min-width: 576px) {
