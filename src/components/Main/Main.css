@@ -114,6 +114,9 @@
   .mainDate_m {
     display: none;
   }
+  .logoImg_m {
+    display: none;
+  }
 }
 
 @media (max-width: 575px) {
@@ -129,9 +132,12 @@
     width: 70%;
   }
   .main-right {
+    margin-left: 8%;
+    width: 85%;
     order: 1;
   }
-  .mainDate {
+  .mainDate,
+  .logoImg {
     display: none;
   }
   .mainLogo,
@@ -142,13 +148,24 @@
   .mainDate_m {
     order: 1;
   }
-  .logoImg {
+
+  .logoImg_m {
+    order: 2;
+    display: block;
     width: 170%;
     margin-top: -30%;
     margin-left: -50px;
   }
-  .main-right {
-    margin-left: 8%;
-    width: 100%;
+
+  .title > h1 {
+    font-size: 1.8em;
+  }
+
+  .aboutUs > h5 {
+    font-size: 0.9em;
+  }
+
+  .contact {
+    font-size: 1em;
   }
 }
