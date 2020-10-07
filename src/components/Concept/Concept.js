@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import concept from "../../img/Concept/Concept.png";
-import states from "./datayanolja2020.json";
+import states from "./states.json";
 import "./Concept.css";
 
 class Concept extends Component {
@@ -32,6 +32,7 @@ class JsonConcept extends Component {
   // json 파일 가져와서 대입
   titleState = states.title;
   subtitle1State = states.subtitle1;
+  subtitle2State = states.subtitle2;
   msg1State = states.msg1;
   // subtitle2State = states.subtitle2;
   msg2State = states.msg2;
@@ -55,7 +56,7 @@ class JsonConcept extends Component {
           </h2>
         </section>
         <section className="contents1">
-          <h3>
+          <h5 id="webStates">
             {this.subtitle1State.split("\n").map(function (item, idx) {
               return (
                 <span key={idx}>
@@ -64,7 +65,17 @@ class JsonConcept extends Component {
                 </span>
               );
             })}
-          </h3>
+          </h5>
+          <h5 id="mobileStates">
+            {this.subtitle2State.split("\n").map(function (item, idx) {
+              return (
+                <span key={idx}>
+                  {item}
+                  <br />
+                </span>
+              );
+            })}
+          </h5>
           <h5>
             {this.msg1State.split("\n").map(function (item, idx) {
               return (

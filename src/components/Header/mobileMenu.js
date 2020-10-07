@@ -11,17 +11,16 @@ componentDidMount() {
     var news_click_num = 0;
     $(document).ready(function(){
         $('.menu_btn>a').on('click', function(){
-            $('.menu_bg').css('display','block'); 
+            $('.menu_bg').show(); 
             $('.sidebar_menu').animate({
                 right:0
             });  
         });
         $('.close_btn>a').on('click', function(){
-            $('.menu_bg').css('display','none'); 
-            $('.menu_bg').css('background-color','rgba(255,255,255,0');
+            $('.menu_bg').hide(); 
             $('.sidebar_menu').animate({
                 right: '-' + 50 + '%'
-            });  
+                        });  
         });
 
         $('.menu-info>a')
